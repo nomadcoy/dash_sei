@@ -1,0 +1,20 @@
+# Índice de criticidade de processos (0-100) — pesos somados quando o critério vale.
+pesos:
+  prioridade: 30          # marcado como prioridade no SEI
+  marcador_critico: 25    # marcador crítico (ver lista abaixo)
+  sem_andamento: 20       # parado na unidade há mais que o limite de prazos.yaml
+  atraso_prazo: 25        # Controle de Prazo do SEI vencido (dias_atraso > 0)
+  idade: 15               # idade acima do percentil 90 do mesmo tipo de processo
+  reprocessamento: 10     # idas e vindas entre unidades (idas_vindas >= 2)
+
+marcadores_criticos:
+  - "URGENTE"
+  - "VENCENDO PRAZO"
+  - "PRAZO VENCIDO"
+  - "CRÍTICO"
+  - "CRITICO"
+  - "PRIORIDADE"
+  - "EM RISCO"
+
+# Limiar padrão para classificar processo como "crítico" no dashboard.
+limiar_padrao: 50

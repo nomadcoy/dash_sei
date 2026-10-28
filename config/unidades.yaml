@@ -1,0 +1,45 @@
+base_url: "https://www.sei.mg.gov.br"
+orgao_dashboard: "SEINFRA"
+
+unidades:
+  - sigla: DGTI
+    nome: Diretoria de Gestão do Transporte Coletivo Intermunicipal
+    cor: "#1D4E89"
+    descricao: >
+      Unidade responsável pela gestão das linhas e serviços de transporte coletivo
+      INTERMUNICIPAL: concessões e autorizações de linhas, alterações de frota e
+      itinerários, processos de revisão e reajuste tarifário intermunicipal e pelo
+      acompanhamento contratual dos operadores que ligam municípios mineiros.
+      Concentra a relação operacional com os concessionários e os pedidos de
+      outorga vindos de empresas e prefeituras.
+
+  - sigla: DGTM
+    nome: Diretoria de Gestão do Transporte Coletivo Metropolitano
+    cor: "#2E7D32"
+    descricao: >
+      Unidade responsável pelo transporte coletivo METROPOLITANO (regiões
+      metropolitanas de MG): linhas metropolitanas, integração com modais
+      ferroviário e metropolitano, linhas de característica especial previstas em
+      lei de mobilidade, acordos de integração tarifária e articulação com as
+      autoridades de transporte das regiões metropolitanas.
+
+  - sigla: DRTC
+    nome: Diretoria de Regulação do Transporte Coletivo
+    cor: "#B45309"
+    descricao: >
+      Unidade de REGULAÇÃO e fiscalização do transporte coletivo: apuração de
+      irregularidades, autuação e recurso de infrações, aplicação de sanções
+      administrativas, auditorias de concessão e instrução de processos
+      disciplinares de operadores. Atua como instância reguladora, com
+      distinção em relação às diretorias de gestão.
+
+  - sigla: STIM
+    nome: Superintendência de Transporte Coletivo Intermunicipal e Metropolitano
+    cor: "#6A1B9A"
+    descricao: >
+      Comando da área de transporte coletivo intermunicipal e metropolitano:
+      superintendência coordena as diretorias, decide processos de alta
+      expressão, emite manifestações e pareceres de superintendência, conduz
+      convênios e consórcios intermunicipais, representa a SEINFRA junto a
+      municípios, consórcios e órgãos de transporte e responde pelo Comitê Gestor
+      e por matérias que exigem decisão estratégica.

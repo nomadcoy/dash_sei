@@ -1,0 +1,136 @@
+﻿# Mapa de processos da STIM
+visao_geral: >
+  O trabalho na STIM organiza-se em três camadas: (1) as DIRETORIAS DE GESTÃO
+  (DGTI e DGTM) conduzem o ciclo operacional das linhas — outorga, alterações e
+  tarifas — separando o intermunicipal do metropolitano; (2) a DRTC atua como
+  instância de REGULAÇÃO, apurando irregularidades e decidindo recursos e
+  sanções com autonomia em relação à gestão; (3) a SUPERINTENDÊNCIA (STIM)
+  decide o que é estratégico — convênios, consórcios, pareceres de alto nível e
+  matérias que envolvem municípios e outros órgãos. Um processo tipicamente
+  nasce na gestão (pedido do operador ou prefeitura), passa por análise
+  técnica e pode escalar para regulação (quando há controvérsia ou
+  irregularidade) ou para a superintendência (quando há impacto político ou
+  contratual relevante).
+
+tipos_processo:
+  - nome: "Autorização de Linha Intermunicipal"
+    diretoria: DGTI
+    entrada: "Pedido protocolado por empresa operadora ou prefeitura solicitando autorização para explorar ou alterar linha intermunicipal."
+    etapas:
+      - "Instrução técnica: viabilidade da linha, frota, itinerário e horários"
+      - "Consulta ao(s) município(s) envolvido(s) e à DGTM/DRTC quando cabível"
+      - "Análise de adequação à outorga vigente e à malha intermunicipal"
+      - "Manifestação da Diretoria e emissão do ato (autorização ou denegação)"
+    saida: "Ato de autorização publicado e linha cadastrada para fiscalização"
+  - nome: "Renovação de Concessão Intermunicipal"
+    diretoria: DGTI
+    entrada: "Requerimento de renovação apresentado pelo concessionário dentro do prazo contratual, com demonstrativo de execução e ausência de pendências."
+    etapas:
+      - "Verificação de pendências fiscais, contratuais e de fiscalização (DRTC)"
+      - "Avaliação do cumprimento do plano de trabalho e da qualidade do serviço"
+      - "Definição das novas condições (prazo, itinerário, obrigações)"
+      - "Aprovação e publicação do termo aditivo ou novo contrato"
+    saida: "Concessão renovada e publicada"
+  - nome: "Autorização de Linha Metropolitana"
+    diretoria: DGTM
+    entrada: "Pedido de outorga ou alteração de linha no âmbito de região metropolitana, muitas vezes vinculado a integração com outros modais."
+    etapas:
+      - "Análise de compatibilidade com a malha metropolitana e integradores"
+      - "Articulação com a autoridade de transporte da região metropolitana"
+      - "Verificação de impacto tarifário e de integração tarifária"
+      - "Manifestação da Diretoria e expedição do ato"
+    saida: "Ato de autorização/metropolitana publicado"
+  - nome: "Revisão/Reajuste Tarifário (Intermunicipal e Metropolitano)"
+    diretoria: DRTC
+    entrada: "Pedido de reajuste anual ou revisão extraordinária protocolado pelo operador com memória de cálculo e documentação de custos."
+    etapas:
+      - "Recepção e instrução (conferência da planilha e das premissas)"
+      - "Análise técnica, econômica e regulatória (conformidade com os contratos)"
+      - "Manifestação da diretoria de regulação e definição do índice aplicável"
+      - "Aprovação superior quando houver impacto superior a limites internos"
+    saida: "Ato de revisão/reajuste publicado com vigência definida"
+    observacao: "Processo de natureza regulatória sob análise da DRTC."
+  - nome: "Modificação de Frota ou Itinerário"
+    diretoria: DGTI
+    entrada: "Requerimento de alteração de quantidade/modelo de veículos, itinerário, frequência ou desenho de linha pelo operador."
+    etapas:
+      - "Análise de impacto operacional e da oferta atual"
+      - "Verificação de necessidade de consulta pública ou aos municípios"
+      - "Manifestação técnica e decisão da diretoria"
+    saida: "Ato de alteração publicado e cadastro atualizado"
+  - nome: "Recurso de Autuação"
+    diretoria: DRTC
+    entrada: "Recurso administrativo interposto pelo autuado contra decisão de infração."
+    etapas:
+      - "Tempestividade e preliminares (legitimidade, cabimento)"
+      - "Revisão probatória dos fatos e da classificação da infração"
+      - "Decisão colegiada: provimento, improvimento ou anulação"
+      - "Publicação e atualização do débito/sanção"
+    saida: "Decisão definitiva sobre a autuação"
+  - nome: "Convênio ou Consórcio Intermunicipal"
+    diretoria: STIM
+    entrada: "Proposta de convênio, protocolo de intenção ou consórcio entre municípios e/ou operadores para exploração conjunta de linhas."
+    etapas:
+      - "Estudo de aderência e alinhamento com a política estadual de mobilidade"
+      - "Articulação com os municípios e órgãos de transporte envolvidos"
+      - "Negociação das condições (participação, frota, receitas, governança)"
+      - "Aprovação da superintendência e assinatura do instrumento"
+    saida: "Instrumento assinado e linhas associadas regulamentadas"
+  - nome: "Manifestação/Parecer de Superintendência"
+    diretoria: STIM
+    entrada: "Demandas de outras unidades, órgãos externos ou municípios que exigem a posição oficial da superintendência."
+    etapas:
+      - "Requisição encapsulada com o contexto e a questão a ser opinada"
+      - "Coordenação das diretorias técnicas envolvidas (DGTI, DGTM, DRTC)"
+      - "Minuta de parecer e ajuste com a assessoria jurídica quando cabível"
+      - "Emissão da manifestação pela superintendência"
+    saida: "Parecer/manifestação emitido e encaminhado ao requerente"
+  - nome: "Anuência para Transferência de Concessão"
+    diretoria: DRTC
+    entrada: "Requerimento de anuência à transferência da concessão ou de parcela, com documentação societária, técnica e financeira."
+    etapas:
+      - "Verificação da documentação e tempestividade"
+      - "Análise de conformidade e regularidade (DRTC), com manifestação das diretorias de gestão quando cabível"
+      - "Instrução e parecer técnico de conformidade"
+      - "Encaminhamento à decisão competente (com parecer da STIM quando cabível)"
+    saida: "Parecer/manifestação ou ato com anuência ou indeferimento publicado"
+    observacao: "Processo de anuência sob instrução regulatória da DRTC."
+  - nome: "Alteração de Composição de Consórcio"
+    diretoria: DRTC
+    entrada: "Requerimento de alteração da composição de consórcio."
+    etapas:
+      - "Análise da proposta e documentação"
+      - "Manifestação da DRTC quanto à conformidade"
+      - "Coordenação com DGTI/DGTM e STIM quando cabível"
+      - "Emissão de manifestação/parecer"
+    saida: "Manifestação/parecer emitido"
+    observacao: "Processo de conformidade regulatória."
+  - nome: "Alteração de Controle Societário"
+    diretoria: DRTC
+    entrada: "Requerimento de alteração de controle societário de concessionária/autorizatária."
+    etapas:
+      - "Verificação da documentação societária"
+      - "Análise de conformidade sob a ótica regulatória"
+      - "Manifestação técnica da DRTC"
+      - "Encaminhamento à decisão competente"
+    saida: "Parecer/manifestação"
+    observacao: "Análise de idoneidade e conformidade contratuais."
+  - nome: "Processo Administrativo Punitivo (PAP)"
+    diretoria: DRTC
+    entrada: "Representação, auto de infração, denúncia ou apuração."
+    etapas:
+      - "Abertura, notificação e prazo de defesa"
+      - "Instrução probatória (defesa, diligências)"
+      - "Análise e dosimetria"
+      - "Decisão da DRTC"
+    saida: "Decisão (arquivamento ou sanção)"
+    observacao: "Instrução regulatória de apuração de irregularidades."
+  - nome: "Matérias correlatas ao transporte por táxi"
+    diretoria: DRTC
+    entrada: "Demandas relativas a táxi que tramitaram na DRTC no período."
+    etapas:
+      - "Instrução técnica"
+      - "Análise de conformidade"
+      - "Manifestação/decisão"
+    saida: "Parecer/ato"
+    observacao: "Movimentações de 2024 de táxi podem estar contabilizadas na DRTC em razão da redistribuição de rotinas ao longo do tempo."

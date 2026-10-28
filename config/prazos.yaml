@@ -1,0 +1,11 @@
+# Dias máximos sem andamento (na unidade atual) antes de pontuar "sem_andamento".
+padrao_dias_sem_andamento: 21
+
+por_tipo:
+  Fiscalização - Infração de Concessão: 10
+  Recurso de Autuação: 10
+  Apuração de Irregularidade: 14
+  Revisão Tarifária - Intermunicipal: 15
+  Reajuste Tarifário Metropolitano: 15
+  Parecer Técnico de Linha: 10
+  Manifestação de Superintendência: 14
